@@ -42,12 +42,9 @@ int wmain(int argc, wchar_t **argv) {
     printf("install -> %d (ver %ls\\ue4ss\\dbfzslots.log)\n", r, argv[2]);
     if (r != 1) return 2;
 
-    // qual perfil foi usado? (mesma regra da DLL: primeiro cujo IsCharaValid confere)
-    const Profile *p = NULL;
-    for (int i = 0; i < NPROFILES; i++) {
-        uint8_t b0 = base[PROFILES[i].isvalid.rva];
-        if (b0 == 0xE9) { p = &PROFILES[i]; break; }   // hook instalado
-    }
+    // perfil em uso (compilado ou gerado no profile.txt)
+    const Profile *p = ((const Profile *(*)(void))GetProcAddress(dll, "dbfz_active_profile"))();
+    if (p && base[p->isvalid.rva] != 0xE9) p = NULL;   // hook tem que estar instalado
     if (!p) { printf("nao achei o perfil aplicado\n"); return 3; }
     uint32_t dmy = p->table_entries - 1, max = p->table_entries, first = max + 1;
     uint32_t *g_extra_end = (uint32_t *)GetProcAddress(dll, "g_extra_end");
@@ -175,9 +172,14 @@ int wmain(int argc, wchar_t **argv) {
     if (p->po_a1.rva) {
         uint8_t *alias = (uint8_t *)GetProcAddress(dll, "g_alias");
         const Site *po[] = {&p->po_a1, &p->po_a2, &p->po_b1, &p->po_b2};
-        const uint32_t disp[] = {0x394, 0x50c, 0x49c, 0x614};
+        uint32_t disp[4];   // deslocamento de cada array lido do proprio exe (muda com o tamanho do elenco)
+        for (int k = 0; k < 4; k++) {     // bytes originais (o site ja tem o gancho): 4c 8d 81 <disp32>
+            uint8_t ob[7];
+            for (int j = 0; j < 7; j++) sscanf(po[k]->hex + 2 * j, "%2hhx", &ob[j]);
+            disp[k] = *(const uint32_t *)(ob + 3);
+        }
         for (int k = 0; k < 4; k++) gt[T_PO_A1 + k] = (uint64_t)t_ret_r8_64;
-        expect("alias restaurado (DGF)", alias[first], (uint32_t)p->restore_present_index);
+        if (p->restore_code) expect("alias restaurado (DGF)", alias[first], (uint32_t)p->restore_present_index);
         for (uint32_t id = 0; id < first + nextras; id++) {
             uint32_t want_idx = id < (uint32_t)p->table_entries - 1 ? id : alias[id];
             if (id >= first) printf("  apelido 0x%02x -> 0x%02x\n", id, alias[id]);

@@ -23,6 +23,14 @@ INSTALLER EXECUTABLE
   Capstone (disassembler) ....... BSD-3-Clause
   Tcl/Tk (window) ............... Tcl/Tk license (BSD-style)
   PyInstaller (bootloader) ...... GPL-2.0 with the bootloader exception
+  Pillow (icons) ................ MIT-CMU (HPND)
+  six ........................... MIT
+
+PYSTRAY   (lgpl\pystray - the tray icon while you play)
+  LGPL-3.0, (c) Moses Palmer. https://github.com/moses-palmer/pystray
+  Shipped unchanged as plain source files in the lgpl folder (not
+  inside the exe), so it can be replaced by any other version.
+  License: licenses\pystray-COPYING.txt, licenses\pystray-COPYING.LGPL.txt
 
 REFERENCES
   UAssetAPI (atenfyr and contributors, MIT): package file format.
