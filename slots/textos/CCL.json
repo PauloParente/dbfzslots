@@ -1,0 +1,45 @@
+{
+  "_fonte": "gamebanana.com/mods/439037 (Shoyoumomo): lista de golpes da pagina do mod",
+  "Entries": [
+    {
+      "header": "CMDCEN07T",
+      "text": "Hold ^mBtnR1; during the Level 3 super to unleash SOLAR FALCON PUNCH (Level 5 super)."
+    },
+    {
+      "header": "CMDCEN08",
+      "text": "^aTokushu;The Knee Of Justice"
+    },
+    {
+      "header": "CMDCEN08INP",
+      "text": "^mAtk3;^mBtnX; or ^mBtnY; or ^mBtnB;"
+    },
+    {
+      "header": "CMDCEN08T",
+      "text": " "
+    },
+    {
+      "header": "CMDCEN09",
+      "text": "^aSpecial;Falcon Punch"
+    },
+    {
+      "header": "CMDCEN09INP",
+      "text": "^mAtk2;^mBtnA;"
+    },
+    {
+      "header": "CMDCEN09T",
+      "text": " "
+    },
+    {
+      "header": "CMDCEN10",
+      "text": "^aSpecial;Cell Hell Venom"
+    },
+    {
+      "header": "CMDCEN10INP",
+      "text": "^mAtk2;^mAtk2;^mBtnB;"
+    },
+    {
+      "header": "CMDCEN10T",
+      "text": " "
+    }
+  ]
+}

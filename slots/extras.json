@@ -1,0 +1,356 @@
+{
+    "_comentario": "Personagens extras, na ordem da 4a fileira (esq -> dir; maximo 15). base = personagem substituido pelo mod (define codigo dos arquivos, textos copiados e enquadramento do retrato). nomes: [longo, curto] por idioma (en padrao; pt = POR; es = SPA/ESN). construir = mod de substituicao convertido pelo build_char (paks, keep = pastas proprias do mod mantidas, move = pastas de outro personagem realocadas para a pasta do extra, ui_paks = arte que falta no mod). construir_ui = so a arte (--ui-only). prontos = paks ja convertidos, instalados como estao. textos = listas de comandos do mod (text.json do Unverum ou pak com REDGame). textos_do_mod = textos vem do pak do Unverum (backup/unverum_text).",
+    "PCO": {
+        "base": "PCN",
+        "nomes": {
+            "en": [
+                "Orange Piccolo",
+                "Orange Piccolo"
+            ],
+            "pt": [
+                "Piccolo Laranja",
+                "Piccolo Laranja"
+            ],
+            "es": [
+                "Piccolo (Naranja)",
+                "Piccolo Naranja"
+            ]
+        },
+        "prontos": [
+            "downloads/bundle/DBFZCharaSelectBundle/RED/Content/Paks/~mods/OrangePiccolo.pak"
+        ],
+        "construir_ui": [
+            "downloads/originals/OrangePiccolo/OrangePiccolo.pak"
+        ],
+        "textos": [
+            "downloads/originals/OrangePiccolo/text.json"
+        ]
+    },
+    "GHB": {
+        "base": "GHU",
+        "nomes": {
+            "en": [
+                "Gohan (Beast)",
+                "Beast Gohan"
+            ],
+            "pt": [
+                "Gohan (Besta)",
+                "Gohan Besta"
+            ],
+            "es": [
+                "Gohan (Bestia)",
+                "Gohan Bestia"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/beastgohanmoveset_74f64/BeastGohanMoveset/BeastGohanMoveset.pak"
+            ],
+            "ui_paks": [
+                "downloads/originals/BeastGohan/BeastGohan.pak"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/beastgohanmoveset_74f64/BeastGohanMoveset/text.json"
+        ]
+    },
+    "DIO": {
+        "base": "CEN",
+        "textos_do_mod": true,
+        "nomes": {
+            "en": [
+                "DIO",
+                "DIO"
+            ]
+        },
+        "prontos": [
+            "downloads/bundle/DBFZCharaSelectBundle/RED/Content/Paks/~mods/DIOCharacterMoveset.pak",
+            "slots/build/chars/DBFZX_DIO_UI.pak",
+            "slots/build/chars/DBFZX_DIO_Config_P.pak"
+        ]
+    },
+    "SBG": {
+        "base": "YMN",
+        "textos_do_mod": true,
+        "nomes": {
+            "en": [
+                "Sol Badguy",
+                "Sol Badguy"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "backup/mods_substituicao_originais/c/Sol Badguy (Moveset)/SolBadguy/SolBadguy_9_P.pak"
+            ],
+            "keep": [
+                "SOL"
+            ],
+            "preload_fix": true
+        }
+    },
+    "YUG": {
+        "base": "AVP",
+        "textos_do_mod": true,
+        "nomes": {
+            "en": [
+                "Yugi Muto",
+                "Yugi"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "backup/mods_substituicao_originais/a/Yami Yugi - Character Moveset Mod/Yugi Muto - Character Moveset Mod/Yugi Muto Character Moveset Mod/YugiMutoCharacterMoveset_9_P.pak"
+            ],
+            "keep": [
+                "YGI"
+            ],
+            "keep_refs": true
+        }
+    },
+    "GKG": {
+        "base": "GKS",
+        "nomes": {
+            "en": [
+                "Goku (Super Saiyan God)",
+                "SSG Goku"
+            ],
+            "pt": [
+                "Goku (Super Saiyajin Deus)",
+                "Goku SSG"
+            ],
+            "es": [
+                "Goku (Super Saiyajin Dios)",
+                "Goku SSD"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/ssggoku_moveset_/SSGGoku (Moveset)/GodGoku.pak"
+            ],
+            "keep": [
+                "GOD",
+                "SRG"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/ssggoku_moveset_/SSGGoku (Moveset)/text.json"
+        ]
+    },
+    "VSF": {
+        "base": "VGS",
+        "nomes": {
+            "en": [
+                "Vegeta (Super Saiyan 4)",
+                "SS4 Vegeta"
+            ],
+            "pt": [
+                "Vegeta (Super Saiyajin 4)",
+                "Vegeta SS4"
+            ],
+            "es": [
+                "Vegeta (Super Saiyajin 4)",
+                "Vegeta SS4"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/vegetass4_moveset_/VegetaSS4 (Moveset)/SS4VegetaMoveset.pak"
+            ],
+            "keep": [
+                "VGF"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/vegetass4_moveset_/VegetaSS4 (Moveset)/SS4VegetaMoveset.pak"
+        ]
+    },
+    "RDN": {
+        "base": "MGS",
+        "nomes": {
+            "en": [
+                "Raditz",
+                "Raditz"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/raditzmoveset_dc065/RaditzMoveset/RaditzMoveset.pak"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/raditzmoveset_dc065/RaditzMoveset/text.json"
+        ]
+    },
+    "CCL": {
+        "base": "CEN",
+        "nomes": {
+            "en": [
+                "Captain Cell",
+                "Captain Cell"
+            ],
+            "pt": [
+                "Capitão Cell",
+                "Capitão Cell"
+            ],
+            "es": [
+                "Capitán Cell",
+                "Capitán Cell"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/captaincell_model/CaptainCell Model/(CEN_All) Captain Cockroach.pak",
+                "downloads/mods/x/capcell_moveset/CapCell Moveset/CapCellMoveset.pak"
+            ],
+            "keep": [
+                "_ULT"
+            ]
+        },
+        "textos": [
+            "slots/textos/CCL.json"
+        ]
+    },
+    "GKT": {
+        "base": "GKS",
+        "nomes": {
+            "en": [
+                "Goku (Super Saiyan 3)",
+                "SS3 Goku"
+            ],
+            "pt": [
+                "Goku (Super Saiyajin 3)",
+                "Goku SS3"
+            ],
+            "es": [
+                "Goku (supersaiyajin 3)",
+                "Goku SS3"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/ssj3_goku_dragon_fist/mod.pak"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/ssj3_goku_dragon_fist/mod.pak"
+        ]
+    },
+    "OSH": {
+        "base": "BRS",
+        "nomes": {
+            "en": [
+                "Omega Shenron",
+                "Omega Shenron"
+            ],
+            "pt": [
+                "Shenlong Omega",
+                "Shenlong Omega"
+            ],
+            "es": [
+                "Omega Shenlong",
+                "Omega Shenlong"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/mod_85469/mod.pak"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/mod_85469/mod.pak"
+        ]
+    },
+    "VTS": {
+        "base": "VTB",
+        "nomes": {
+            "en": [
+                "Vegito (Super Saiyan)",
+                "Super Vegito"
+            ],
+            "pt": [
+                "Vegetto (Super Saiyajin)",
+                "Super Vegetto"
+            ],
+            "es": [
+                "Vegetto (supersaiyajin)",
+                "Super Vegetto"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/udbfzsupervegito_v104/UDBFZSuperVegito v1.04/UDBFZ_SuperVegito.pak"
+            ],
+            "move": [
+                "VGS/Costume02=VTS/Costume92"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/udbfzsupervegito_v104/UDBFZSuperVegito v1.04/text.json"
+        ]
+    },
+    "GRN": {
+        "base": "TRS",
+        "nomes": {
+            "en": [
+                "Granolah",
+                "Granolah"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/granolah_v2/mod.pak"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/granolah_v2/mod.pak"
+        ]
+    },
+    "SKN": {
+        "base": "BSN",
+        "nomes": {
+            "en": [
+                "Ryomen Sukuna",
+                "Sukuna"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/sukuna_moveset11_eng_jap_1722b/mod.pak"
+            ],
+            "keep": [
+                "WTN"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/sukuna_moveset11_eng_jap_1722b/text.json"
+        ]
+    },
+    "GSF": {
+        "base": "SGN",
+        "nomes": {
+            "en": [
+                "Goku (Super Saiyan 4, GT)",
+                "SS4 Goku GT"
+            ],
+            "pt": [
+                "Goku (Super Saiyajin 4, GT)",
+                "Goku SS4 GT"
+            ],
+            "es": [
+                "Goku (supersaiyajin 4, GT)",
+                "Goku SS4 GT"
+            ]
+        },
+        "construir": {
+            "paks": [
+                "downloads/mods/x/ssj4goku/SSJ4 Goku/pakchunk3-WindowsNoEditor.pak"
+            ],
+            "keep": [
+                "SGF"
+            ]
+        },
+        "textos": [
+            "downloads/mods/x/ssj4goku/SSJ4 Goku/text.json"
+        ]
+    }
+}

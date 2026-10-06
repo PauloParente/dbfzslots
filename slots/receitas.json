@@ -1,0 +1,1347 @@
+{
+ "_comentario": "Receitas testadas no jogo, indexadas pelo MD5 do arquivo original baixado. paks/textos sao caminhos DENTRO do arquivo. Gerado por slots/tools/criar_receitas.py.",
+ "receitas": {
+  "9b24ed8b3b1d25fdb0380f80fa216b94": {
+   "codigo": "GHB",
+   "base": "GHU",
+   "nomes": {
+    "en": [
+     "Gohan (Beast)",
+     "Beast Gohan"
+    ],
+    "pt": [
+     "Gohan (Besta)",
+     "Gohan Besta"
+    ],
+    "es": [
+     "Gohan (Bestia)",
+     "Gohan Bestia"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/594699",
+   "autor": "RCBurrito",
+   "paks": [
+    "BeastGohanMoveset/BeastGohanMoveset.pak"
+   ],
+   "textos": [
+    "BeastGohanMoveset/text.json"
+   ]
+  },
+  "042646748a8d478e08ed083362a4bf68": {
+   "codigo": "GKG",
+   "base": "GKS",
+   "nomes": {
+    "en": [
+     "Goku (Super Saiyan God)",
+     "SSG Goku"
+    ],
+    "pt": [
+     "Goku (Super Saiyajin Deus)",
+     "Goku SSG"
+    ],
+    "es": [
+     "Goku (Super Saiyajin Dios)",
+     "Goku SSD"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/395251",
+   "autor": "RCBurrito",
+   "paks": [
+    "SSGGoku (Moveset)/GodGoku.pak"
+   ],
+   "keep": [
+    "GOD",
+    "SRG"
+   ],
+   "textos": [
+    "SSGGoku (Moveset)/text.json"
+   ]
+  },
+  "c614a501d97b04d2bc9e87982b1c8c58": {
+   "codigo": "VSF",
+   "base": "VGS",
+   "nomes": {
+    "en": [
+     "Vegeta (Super Saiyan 4)",
+     "SS4 Vegeta"
+    ],
+    "pt": [
+     "Vegeta (Super Saiyajin 4)",
+     "Vegeta SS4"
+    ],
+    "es": [
+     "Vegeta (Super Saiyajin 4)",
+     "Vegeta SS4"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/525644",
+   "autor": "RCBurrito",
+   "paks": [
+    "VegetaSS4 (Moveset)/SS4VegetaMoveset.pak"
+   ],
+   "keep": [
+    "VGF"
+   ],
+   "textos": [
+    "VegetaSS4 (Moveset)/SS4VegetaMoveset.pak"
+   ]
+  },
+  "9a35cafb54a9436771659efcc2b2b6db": {
+   "codigo": "RDN",
+   "base": "MGS",
+   "nomes": {
+    "en": [
+     "Raditz",
+     "Raditz"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/440356",
+   "autor": "RCBurrito",
+   "paks": [
+    "RaditzMoveset/RaditzMoveset.pak"
+   ],
+   "textos": [
+    "RaditzMoveset/text.json"
+   ]
+  },
+  "58e42c37ab5acb73804060df485e0767": {
+   "codigo": "CCL",
+   "base": "CEN",
+   "nomes": {
+    "en": [
+     "Captain Cell",
+     "Captain Cell"
+    ],
+    "pt": [
+     "Capitão Cell",
+     "Capitão Cell"
+    ],
+    "es": [
+     "Capitán Cell",
+     "Capitán Cell"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/439037",
+   "autor": "Shoyoumomo",
+   "paks": [
+    "CaptainCell Model/(CEN_All) Captain Cockroach.pak"
+   ],
+   "keep": [
+    "_ULT"
+   ],
+   "textos_extra": [
+    {
+     "header": "CMDCEN07T",
+     "text": "Hold ^mBtnR1; during the Level 3 super to unleash SOLAR FALCON PUNCH (Level 5 super)."
+    },
+    {
+     "header": "CMDCEN08",
+     "text": "^aTokushu;The Knee Of Justice"
+    },
+    {
+     "header": "CMDCEN08INP",
+     "text": "^mAtk3;^mBtnX; or ^mBtnY; or ^mBtnB;"
+    },
+    {
+     "header": "CMDCEN08T",
+     "text": " "
+    },
+    {
+     "header": "CMDCEN09",
+     "text": "^aSpecial;Falcon Punch"
+    },
+    {
+     "header": "CMDCEN09INP",
+     "text": "^mAtk2;^mBtnA;"
+    },
+    {
+     "header": "CMDCEN09T",
+     "text": " "
+    },
+    {
+     "header": "CMDCEN10",
+     "text": "^aSpecial;Cell Hell Venom"
+    },
+    {
+     "header": "CMDCEN10INP",
+     "text": "^mAtk2;^mAtk2;^mBtnB;"
+    },
+    {
+     "header": "CMDCEN10T",
+     "text": " "
+    }
+   ]
+  },
+  "61284f64c4e2c1d8e47763b87ce66e2f": {
+   "codigo": "GKT",
+   "base": "GKS",
+   "nomes": {
+    "en": [
+     "Goku (Super Saiyan 3)",
+     "SS3 Goku"
+    ],
+    "pt": [
+     "Goku (Super Saiyajin 3)",
+     "Goku SS3"
+    ],
+    "es": [
+     "Goku (supersaiyajin 3)",
+     "Goku SS3"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/444309",
+   "autor": "BigManJPD",
+   "paks": [
+    "mod.pak"
+   ],
+   "textos": [
+    "mod.pak"
+   ]
+  },
+  "1556ead93e8c89345265be0fb1e9f6ff": {
+   "codigo": "OSH",
+   "base": "BRS",
+   "nomes": {
+    "en": [
+     "Omega Shenron",
+     "Omega Shenron"
+    ],
+    "pt": [
+     "Shenlong Omega",
+     "Shenlong Omega"
+    ],
+    "es": [
+     "Omega Shenlong",
+     "Omega Shenlong"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/451264",
+   "autor": "BigManJPD",
+   "paks": [
+    "mod.pak"
+   ],
+   "textos": [
+    "mod.pak"
+   ]
+  },
+  "7251d6c6d4ee166221627e8c27ea7020": {
+   "codigo": "VTS",
+   "base": "VTB",
+   "nomes": {
+    "en": [
+     "Vegito (Super Saiyan)",
+     "Super Vegito"
+    ],
+    "pt": [
+     "Vegetto (Super Saiyajin)",
+     "Super Vegetto"
+    ],
+    "es": [
+     "Vegetto (supersaiyajin)",
+     "Super Vegetto"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/431940",
+   "autor": "Sureidu",
+   "paks": [
+    "UDBFZSuperVegito v1.04/UDBFZ_SuperVegito.pak"
+   ],
+   "move": [
+    "VGS/Costume02=VTS/Costume92"
+   ],
+   "textos": [
+    "UDBFZSuperVegito v1.04/text.json"
+   ]
+  },
+  "6c038c42b50f2181461b03c70bdd5ce4": {
+   "codigo": "GRN",
+   "base": "TRS",
+   "nomes": {
+    "en": [
+     "Granolah",
+     "Granolah"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/461713",
+   "autor": "BigManJPD",
+   "paks": [
+    "mod.pak"
+   ],
+   "textos": [
+    "mod.pak"
+   ]
+  },
+  "56a46dcdbec05a41a01dbb00d97562b4": {
+   "codigo": "SKN",
+   "base": "BSN",
+   "nomes": {
+    "en": [
+     "Ryomen Sukuna",
+     "Sukuna"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/581695",
+   "autor": "BigManJPD",
+   "paks": [
+    "mod.pak"
+   ],
+   "keep": [
+    "WTN"
+   ],
+   "textos": [
+    "text.json"
+   ]
+  },
+  "09ef634f67a715869371432c3900577b": {
+   "codigo": "GSF",
+   "base": "SGN",
+   "nomes": {
+    "en": [
+     "Goku (Super Saiyan 4, GT)",
+     "SS4 Goku GT"
+    ],
+    "pt": [
+     "Goku (Super Saiyajin 4, GT)",
+     "Goku SS4 GT"
+    ],
+    "es": [
+     "Goku (supersaiyajin 4, GT)",
+     "Goku SS4 GT"
+    ]
+   },
+   "pagina": "https://www.patreon.com/posts/super-saiyan-4-112573246",
+   "autor": "",
+   "paks": [
+    "SSJ4 Goku/pakchunk3-WindowsNoEditor.pak"
+   ],
+   "keep": [
+    "SGF"
+   ],
+   "textos": [
+    "SSJ4 Goku/text.json"
+   ]
+  },
+  "84c591961ca714c22c83459873f6b347": {
+   "codigo": "SBG",
+   "base": "YMN",
+   "nomes": {
+    "en": [
+     "Sol Badguy",
+     "Sol Badguy"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/655977",
+   "autor": "RCBurrito",
+   "paks": [
+    "SolBadguy.pak"
+   ],
+   "keep": [
+    "SOL"
+   ],
+   "preload_fix": true,
+   "textos_extra": [
+    {
+     "header": "CHARA_NAME_L_YMN",
+     "text": "Sol Badguy"
+    },
+    {
+     "header": "CHARA_NAME_S_YMN",
+     "text": "Sol Badguy"
+    },
+    {
+     "header": "bgm_046_bat_ymn",
+     "text": "Sol Badguy - Find Your One Way"
+    },
+    {
+     "header": "bgm_106_bat_Retro01",
+     "text": "Sol Badguy - Ride the Fire! (Dragon Install theme)"
+    },
+    {
+     "header": "CMDYMN00",
+     "text": "^aTokushu;Command Normal 1"
+    },
+    {
+     "header": "CMDYMN00INP",
+     "text": "^mAtk6;^mBtnX; while on the ground."
+    },
+    {
+     "header": "CMDYMN00T",
+     "text": "An attack with upper body invincibility. Its a good option against airborne opponents."
+    },
+    {
+     "header": "CMDYMN01",
+     "text": "^aTokushu;Command Normal 2"
+    },
+    {
+     "header": "CMDYMN01INP",
+     "text": "^mAtk6;^mBtnY; while on the ground."
+    },
+    {
+     "header": "CMDYMN01T (2)",
+     "text": "A lunging attack. Its long reach makes it a good poke at mid-range."
+    },
+    {
+     "header": "CMDYMN02",
+     "text": "^aTokushu;Command Normal 3"
+    },
+    {
+     "header": "CMDYMN02INP",
+     "text": "^mAtk6;^mBtnB; while on the ground."
+    },
+    {
+     "header": "CMDYMN02T",
+     "text": "A powerful attack that leaves you wide open when whiffed. As it has great reach and quick startup, it's a good way to punish the opponent."
+    },
+    {
+     "header": "CMDYMN03",
+     "text": "^aTokushu;Throw"
+    },
+    {
+     "header": "CMDYMN03INP",
+     "text": "^mAtk6;^mBtnR1;"
+    },
+    {
+     "header": "CMDYMN03T",
+     "text": " "
+    },
+    {
+     "header": "CMDYMN04",
+     "text": "^aSpecial;Gun Flame"
+    },
+    {
+     "header": "CMDYMN04INP",
+     "text": "^mAtk236;^mBtnX; while on the ground."
+    },
+    {
+     "header": "CMDYMN04T",
+     "text": "A projectile that appears in front of Sol. As each fire pillar appears with a slight delay, the range gets longer with time."
+    },
+    {
+     "header": "CMDYMN05",
+     "text": "^aSpecial;Gun Flame Feint"
+    },
+    {
+     "header": "CMDYMN05INP",
+     "text": "^mAtk214;^mBtnX; while on the ground."
+    },
+    {
+     "header": "CMDYMN05T",
+     "text": "A feint with the same animation as Gun Flame. Although no fire pillars appear, it has much faster recovery."
+    },
+    {
+     "header": "CMDYMN06",
+     "text": "^aSpecial;Volcanic Viper"
+    },
+    {
+     "header": "CMDYMN06INP",
+     "text": "^mAtk6;^mAtk2;^mAtk3;^mBtnY; or ^mBtnB;"
+    },
+    {
+     "header": "CMDYMN06T",
+     "text": "An invincible attack. The Heavy version deals more damage, but has longer recovery. The Heavy clean hit version deals even more damage."
+    },
+    {
+     "header": "CMDYMN07",
+     "text": "^aSpecial;Bandit Revolver"
+    },
+    {
+     "header": "CMDYMN07INP",
+     "text": "^mAtk236;^mBtnA;"
+    },
+    {
+     "header": "CMDYMN07T",
+     "text": "A lunging attack that sends Sol forward quickly. Input again for a knockdown follow-up attack."
+    },
+    {
+     "header": "CMDYMN08",
+     "text": "^aSpecial;Bandit Bringer"
+    },
+    {
+     "header": "CMDYMN08INP",
+     "text": "^mAtk214;^mBtnA;"
+    },
+    {
+     "header": "CMDYMN08T (2)",
+     "text": "An overhead attack where Sol leaps upwards before crashing down over the opponents head. Hold the air version to delay the attack and extend your stored momentum."
+    },
+    {
+     "header": "CMDYMN09",
+     "text": "^aSpecial;Wild Throw"
+    },
+    {
+     "header": "CMDYMN09INP",
+     "text": "^mAtk6;^mAtk2;^mAtk3;^mBtnA; while on the ground."
+    },
+    {
+     "header": "CMDYMN09T",
+     "text": "A command grab. Although it does more damage than a normal throw, it leaves Sol more vulnerable when whiffed."
+    },
+    {
+     "header": "CMDYMN10",
+     "text": "^aSpecial;Night Raid Vortex"
+    },
+    {
+     "header": "CMDYMN10INP",
+     "text": "^mAtk214;^mBtnY; while on the ground."
+    },
+    {
+     "header": "CMDYMN10T",
+     "text": "A lunging attack that sends Sol towards the opponent while close to the ground. You can extend the range of the lunge by holding down the button, but it cannot be cancelled into from his normal attacks."
+    },
+    {
+     "header": "CMDYMN11",
+     "text": "^aSpecial;Sidewinder"
+    },
+    {
+     "header": "CMDYMN11INP",
+     "text": "^mAtk236;^mBtnB; while in the air."
+    },
+    {
+     "header": "CMDYMN11T",
+     "text": "Sol jabs his opponent with a flaming hook in the air. The clean hit version causes a wall bounce."
+    },
+    {
+     "header": "CMDYMN12",
+     "text": "^aSpecial;Fafnir"
+    },
+    {
+     "header": "CMDYMN12INP",
+     "text": "^mAtk41236;^mBtnB; while on the ground."
+    },
+    {
+     "header": "CMDYMN12T",
+     "text": "An attack where sol strikes forward with his fist. It deals a lot of damage and has little recovery, but it cannot be cancelled into from his normal attacks."
+    },
+    {
+     "header": "CMDYMN13",
+     "text": "^aCMDGauge01;^aOverDrives;Tyrant Rave"
+    },
+    {
+     "header": "CMDYMN13INP",
+     "text": "^mAtk63214;^mAtk6;^mBtnB; while on the ground."
+    },
+    {
+     "header": "CMDYMN13T",
+     "text": "An invincible attack that deals heavy damage and blows the opponent back on hit."
+    },
+    {
+     "header": "CMDYMN14",
+     "text": "^aCMDGauge03;^aMeteorOverDrives;Dragon Install"
+    },
+    {
+     "header": "CMDYMN14INP",
+     "text": "^mAtk214;^mAtk214;^mBtnB;"
+    },
+    {
+     "header": "CMDYMN14T",
+     "text": "Temporarily transforms Sol. Deal more damage, gain an additional jump, and the ability to Superdash while in Dragon Install."
+    },
+    {
+     "header": "CMDYMN15",
+     "text": "^aMeteorOverDrives;Superdash"
+    },
+    {
+     "header": "CMDYMN15INP",
+     "text": "^mBtnR2; while in Dragon Install."
+    },
+    {
+     "header": "CMDYMN15T",
+     "text": "Can cancel almost any Normal or Special move into Superdash."
+    },
+    {
+     "header": "CMDYMN16",
+     "text": "^aCMDGauge01;^aMeteorOverDrives;Roman Cancel (Blue)"
+    },
+    {
+     "header": "CMDYMN16INP",
+     "text": "^mBtnY;^mBtnB;"
+    },
+    {
+     "header": "CMDYMN16T",
+     "text": "Cancels almost any move and slows down time if the opponent is not damaged or guarding."
+    },
+    {
+     "header": "CMDYMN17",
+     "text": "^aCMDGauge02;^aMeteorOverDrives;Roman Cancel (Red)"
+    },
+    {
+     "header": "CMDYMN17INP",
+     "text": "^mBtnY;^mBtnB;"
+    },
+    {
+     "header": "CMDYMN17T",
+     "text": "Cancels almost any move and slows down time if the opponent is hit or guarding."
+    },
+    {
+     "header": "vymn700",
+     "text": " "
+    },
+    {
+     "header": "vymn701",
+     "text": " "
+    },
+    {
+     "header": "vymn702",
+     "text": " "
+    },
+    {
+     "header": "vymn703",
+     "text": " "
+    },
+    {
+     "header": "vymn704",
+     "text": " "
+    },
+    {
+     "header": "YMN_ASSIST_00",
+     "text": "Gun Flame"
+    },
+    {
+     "header": "YMN_ASSIST_01",
+     "text": "Volcanic Viper"
+    },
+    {
+     "header": "YMN_ASSIST_02",
+     "text": "Night Raid Vortex"
+    }
+   ]
+  },
+  "f40c363091565c34032a0b2b7b110f0f": {
+   "codigo": "YUG",
+   "base": "AVP",
+   "nomes": {
+    "en": [
+     "Yugi Muto",
+     "Yugi"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/641650",
+   "autor": "Kongmeng",
+   "paks": [
+    "YugiMutoCharacterMoveset.pak"
+   ],
+   "keep": [
+    "YGI"
+   ],
+   "keep_refs": true,
+   "textos_extra": [
+    {
+     "header": "CHARA_NAME_L_AVP",
+     "text": "Yami Yugi"
+    },
+    {
+     "header": "CHARA_NAME_S_AVP",
+     "text": "Yami Yugi"
+    },
+    {
+     "header": "CHARA_NAME_DEMO_AVP",
+     "text": "Yami Yugi"
+    },
+    {
+     "header": "AVP_ASSIST_00",
+     "text": "Dark Magic Attack"
+    },
+    {
+     "header": "AVP_ASSIST_01",
+     "text": "Dust Tornado"
+    },
+    {
+     "header": "AVP_ASSIST_02",
+     "text": "Dark Magic Attack"
+    },
+    {
+     "header": "CMDAVP00",
+     "text": "The Pharaoh and his ever faithful Servant"
+    },
+    {
+     "header": "CMDAVP00INP",
+     "text": "Yugi moves in sync with Dark Magician when performing movement options in-game"
+    },
+    {
+     "header": "CMDAVP00T",
+     "text": "Walk: ^mAtk6;, Run: ^mAtk6;^mAtk6;"
+    },
+    {
+     "header": "CMDAVP01",
+     "text": "^aSuperSpecial;^mHasei;Dash"
+    },
+    {
+     "header": "CMDAVP01INP",
+     "text": "^mAtk4;/^mAtk6; ^mBtnA;"
+    },
+    {
+     "header": "CMDAVP01T",
+     "text": "Yugi quickly performs a dash in the given direction"
+    },
+    {
+     "header": "CMDAVP02",
+     "text": "^aSuperSpecial;^mHasei;Standby Phase"
+    },
+    {
+     "header": "CMDAVP02INP",
+     "text": "^mAtk2; ^mBtnA;"
+    },
+    {
+     "header": "CMDAVP02T",
+     "text": "This keeps Yugi in place independent of Dark Magician"
+    },
+    {
+     "header": "CMDAVP03",
+     "text": "^aSuperSpecial;^mHasei;^mHasei;Exit Standby Phase"
+    },
+    {
+     "header": "CMDAVP03INP",
+     "text": "^mBtnA; while in Standby Phase."
+    },
+    {
+     "header": "CMDAVP03T",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP04 (2)",
+     "text": "^aSuperSpecial;^mHasei;^mHasei;Dash"
+    },
+    {
+     "header": "CMDAVP04INP (2)",
+     "text": "^mAtk4;/^mAtk6; ^mBtnA;"
+    },
+    {
+     "header": "CMDAVP04T (2)",
+     "text": "Yugi can exit 'Standby Phase' with a Dash as well"
+    },
+    {
+     "header": "CMDAVP05 (2)",
+     "text": "^aTokushu;Dark Magic Attack!"
+    },
+    {
+     "header": "CMDAVP05INP (2)",
+     "text": "^mAtk6; ^mBtnB;"
+    },
+    {
+     "header": "CMDAVP05T (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP06 (2)",
+     "text": "^aTokushu;Dark Magic Attack! (Air)"
+    },
+    {
+     "header": "CMDAVP06INP (2)",
+     "text": "^mAtk2; ^mBtnX;/^mBtnY; while in the air."
+    },
+    {
+     "header": "CMDAVP06T (2)",
+     "text": "^mBtnX; version teleports Dark Magician to the other side of the opponent"
+    },
+    {
+     "header": "CMDAVP07 (2)",
+     "text": "^aSpecial;Draw Card"
+    },
+    {
+     "header": "CMDAVP07INP (2)",
+     "text": "^mAtk214;/^mAtk1;/^mAtk2;^mAtk2;/^mAtk3;/^mAtk236; and ^mBtnX;/^mBtnY;/^mBtnB; (performable in air)"
+    },
+    {
+     "header": "CMDAVP07T (2)",
+     "text": "The directional motion input determines the chosen card regardless of side orientation. The effect is identical for all button strengths."
+    },
+    {
+     "header": "CMDAVP08 (2)",
+     "text": "^aSpecial;^mHasei;Draw Card"
+    },
+    {
+     "header": "CMDAVP08INP (2)",
+     "text": "^mAtk4;/^mAtk1;/^mAtk2;/^mAtk3;/^mAtk6; and ^mBtnX;/^mBtnY;/^mBtnB; (performable in air)"
+    },
+    {
+     "header": "CMDAVP08T (2)",
+     "text": "You can chain an infinite amount draws when possible"
+    },
+    {
+     "header": "CMDAVP09 (2)",
+     "text": "^aCMDGauge06;^aSpecial;Play Card"
+    },
+    {
+     "header": "CMDAVP09INP (2)",
+     "text": "^mAtk214;/^mAtk1;/^mAtk2;^mAtk2;/^mAtk3;/^mAtk236; and ^mBtnX;/^mBtnY;/^mBtnB; (performable in air) (held for new effect)"
+    },
+    {
+     "header": "CMDAVP09T (2)",
+     "text": "The directional motion input determines the chosen card regardless of side orientation, and the chosen button determines the card effect. Only one card per type and per button can be active at a time."
+    },
+    {
+     "header": "CMDAVP10 (2)",
+     "text": "^aCMDGauge06;^aSpecial;^mHasei;Play Card"
+    },
+    {
+     "header": "CMDAVP10INP (2)",
+     "text": "^mAtk4;/^mAtk1;/^mAtk2;/^mAtk3;/^mAtk6; and ^mBtnX;/^mBtnY;/^mBtnB; (performable in air) (held for new effect)"
+    },
+    {
+     "header": "CMDAVP10T (2)",
+     "text": "You can chain up to two cards per Z-Combo"
+    },
+    {
+     "header": "CMDAVP11 (2)",
+     "text": "^aCMDGauge01;^aOverDrives;Go! Dark Magician Girl!"
+    },
+    {
+     "header": "CMDAVP11INP (2)",
+     "text": "^mAtk236;^mBtnR1; or ^mBtnR2; (performable in air)"
+    },
+    {
+     "header": "CMDAVP11T (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP12 (2)",
+     "text": "^aCMDGauge03;^aMeteorOverDrives;Come forth, Slifer the Sky Dragon!"
+    },
+    {
+     "header": "CMDAVP12INP (2)",
+     "text": "^mAtk214;^mBtnR1; or ^mBtnR2; (performable in air)"
+    },
+    {
+     "header": "CMDAVP12T (2)",
+     "text": "Does more damage the more cards you have in your hand."
+    },
+    {
+     "header": "CMDAVP13 (2)",
+     "text": "^aCMDGauge03;^aMeteorOverDrives;Quick-Play Spell Activate: Berserker Soul"
+    },
+    {
+     "header": "CMDAVP13INP (2)",
+     "text": "^mAtk214;^mBtnR2;"
+    },
+    {
+     "header": "CMDAVP13T (2)",
+     "text": "Can only be performed once per battle."
+    },
+    {
+     "header": "CMDAVP14 (2)",
+     "text": "^aMeteorOverDrives;Exodia, Obliterate!"
+    },
+    {
+     "header": "CMDAVP14INP (2)",
+     "text": "Peforms automatically when you have all 5 pieces of Exodia in hand"
+    },
+    {
+     "header": "CMDAVP14T (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP15",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP15INP",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP15T",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP15 (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP15INP (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP15T (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP16",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP16INP",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP16T",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP16 (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP16INP (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP16T (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP17",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP17INP",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP17T",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP17 (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP17INP (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP17T (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP18",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP18INP",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP18T",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP18 (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP18INP (2)",
+     "text": ""
+    },
+    {
+     "header": "CMDAVP18T (2)",
+     "text": ""
+    },
+    {
+     "header": "vygi0400",
+     "text": "Just as I have allies, I also have trusted servants in my deck who have fought alongside me!"
+    },
+    {
+     "header": "vygi0401",
+     "text": "In this match, the one who believes in his own deck will win."
+    },
+    {
+     "header": "vygi0402",
+     "text": "The key to victory in this battle is the power of our unity!"
+    },
+    {
+     "header": "vygi0403",
+     "text": "Are you my opponent?. This looks like it's going to be a fierce battle."
+    },
+    {
+     "header": "vygi0404",
+     "text": "I get it. It'll take on this duel. And I'll defeat you!"
+    },
+    {
+     "header": "vygi0405",
+     "text": "As a true Duelist, it's time for a serious fight with pride on the line. Prepare yourself."
+    },
+    {
+     "header": "vygi0406",
+     "text": "I won't go easy on you. I'm going all out!"
+    },
+    {
+     "header": "vygi0407",
+     "text": "Hmph. I'll praise you for not running away from me."
+    },
+    {
+     "header": "vygi0408",
+     "text": "My own memories. My vows with my friends. To get that light, I will win!"
+    },
+    {
+     "header": "vygi0410",
+     "text": "Come forth! Dark Magician!"
+    },
+    {
+     "header": "vygi0411",
+     "text": "Come forth! Dark Magician Girl!"
+    },
+    {
+     "header": "vygi0420",
+     "text": "A splendid victory."
+    },
+    {
+     "header": "vygi0421",
+     "text": "In the future beyond this defeat, there is sure to be an answer."
+    },
+    {
+     "header": "vygi0422",
+     "text": "You will definitely come back. I believe in that future."
+    },
+    {
+     "header": "vygi0423",
+     "text": "I acknowledge your abilities. There is a line between us now, but there is no difference in strength."
+    },
+    {
+     "header": "vygi0424",
+     "text": "Pride, Soul, and Strength were all on the line. It was the best duel ever!"
+    },
+    {
+     "header": "vygi0425",
+     "text": "Sorry, but now that I'm in the ring, I can't lose."
+    },
+    {
+     "header": "vygi0426",
+     "text": "As expected, I'm looking forward to the next one!"
+    },
+    {
+     "header": "vygi0427",
+     "text": "To all the cards that gave me strength, as well as my friends; Thank you."
+    },
+    {
+     "header": "vygi0770",
+     "text": "This duel, it seems like our unity made it happen"
+    },
+    {
+     "header": "vygi0771",
+     "text": "Without you, I wouldn't have been able to achieve this victory. I'm counting on you."
+    },
+    {
+     "header": "vygi0772",
+     "text": "Come challenge us again."
+    },
+    {
+     "header": "vygi0773",
+     "text": "My friend, his name is Joey. I think you'd get along well."
+    }
+   ]
+  },
+  "8315128815faec3060532e4efe3d39ea": {
+   "codigo": "DIB",
+   "base": "CEN",
+   "nomes": {
+    "en": [
+     "DIO",
+     "DIO"
+    ]
+   },
+   "pagina": "https://gamebanana.com/mods/564409",
+   "autor": "Kongmeng",
+   "paks": [
+    "DIOCharacterMoveset.pak"
+   ],
+   "keep": [
+    "DIO",
+    "WLD"
+   ],
+   "extra_files": [
+    "Config/Windows/WindowsEngine.ini"
+   ],
+   "textos_extra": [
+    {
+     "header": "CHARA_NAME_L_CEN",
+     "text": "DIO"
+    },
+    {
+     "header": "CHARA_NAME_S_CEN",
+     "text": "DIO"
+    },
+    {
+     "header": "CHARA_NAME_DEMO_CEN",
+     "text": "DIO"
+    },
+    {
+     "header": "CMDCEN00",
+     "text": "^aSuperSpecial;Stand ON/OFF"
+    },
+    {
+     "header": "CMDCEN00INP",
+     "text": "^aCMDGauge02;^mBtnA; (performable in air)"
+    },
+    {
+     "header": "CMDCEN00T",
+     "text": "DIO can summon or dismiss [THE WORLD], altering his available abilities and attacks"
+    },
+    {
+     "header": "CMDCEN01",
+     "text": "^aCMDGauge07;^aSuperSpecial;Quick Stand ON"
+    },
+    {
+     "header": "CMDCEN01INP",
+     "text": "^mBtnA; while Stand OFF and during cancellable normals (performable in air)"
+    },
+    {
+     "header": "CMDCEN01T",
+     "text": "DIO quickly summons [THE WORLD] allowing for additional follow-up attacks."
+    },
+    {
+     "header": "CMDCEN02",
+     "text": "^aTokushu;This is the end!"
+    },
+    {
+     "header": "CMDCEN02INP",
+     "text": "^mAtk3;^mBtnB; while Stand OFF."
+    },
+    {
+     "header": "CMDCEN02T",
+     "text": "Ground bounces aerial opponents and knockdowns grounded opponents. Can hit opponents lying on the ground."
+    },
+    {
+     "header": "CMDCEN03",
+     "text": "^aTokushu;Are you trying to shoot me?"
+    },
+    {
+     "header": "CMDCEN03INP (2)",
+     "text": "^mAtk6;^mBtnB; while Stand OFF."
+    },
+    {
+     "header": "CMDCEN03T",
+     "text": "DIO leaves himself seemingly defenseless in anticipation for a counter-attack"
+    },
+    {
+     "header": "CMDCEN04",
+     "text": "^aSpecial;They're too far away..."
+    },
+    {
+     "header": "CMDCEN04INP",
+     "text": "^mAtk2;^mBtnY; while in air"
+    },
+    {
+     "header": "CMDCEN04T (2)",
+     "text": "Causes a knockdown and returns to Stand OFF if performed in Stand ON."
+    },
+    {
+     "header": "CMDCEN05",
+     "text": "^aSpecial;Right in front of me!?"
+    },
+    {
+     "header": "CMDCEN05INP",
+     "text": "^mAtk236;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand OFF. (Stand Rush cancellable)"
+    },
+    {
+     "header": "CMDCEN05T",
+     "text": "[THE WORLD] performs the following attacks based on the buttons pressed: ^mBtnX;:An anti-air uppercut. ^mBtnY;:A downwards overhead punch. ^mBtnB;:An approaching low hitting punch"
+    },
+    {
+     "header": "CMDCEN06",
+     "text": "^aCMDGauge01;^aSuperSpecial;^mHasei;Stand Rush"
+    },
+    {
+     "header": "CMDCEN06INP",
+     "text": "^mHasei;^mBtnA;"
+    },
+    {
+     "header": "CMDCEN06T",
+     "text": "DIO de-syncs from [THE WORLD] allowing for additional follow-up attacks."
+    },
+    {
+     "header": "CMDCEN07",
+     "text": "^aCMDGauge06;^aSpecial;And one more just in case!"
+    },
+    {
+     "header": "CMDCEN07INP",
+     "text": "^aCMDGauge06;^mAtk214;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand OFF. (performable in air)"
+    },
+    {
+     "header": "CMDCEN07T",
+     "text": "^mBtnX;: This functions like a traditional ^mBtnS; and is freely cancellable. ^mBtnY; or ^mBtnB;: You can perform a Super Dash during the attack."
+    },
+    {
+     "header": "CMDCEN08",
+     "text": "^aCMDGauge06;^aSpecial;Oh, this suits me well!"
+    },
+    {
+     "header": "CMDCEN08INP",
+     "text": "^mAtk2;^mAtk2;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand OFF."
+    },
+    {
+     "header": "CMDCEN08T",
+     "text": "Unblockable Command grab. DIO knocks down and drains the opponents blood, stealing a portion of health for himself."
+    },
+    {
+     "header": "CMDCEN09",
+     "text": "^aCMDGauge06;^aSpecial;Useless, useless, useless, useless!"
+    },
+    {
+     "header": "CMDCEN09INP",
+     "text": "^mAtk236;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand ON. (Stand Rush cancellable)"
+    },
+    {
+     "header": "CMDCEN09T",
+     "text": "[THE WORLD] rushes forward with a barrage of punches, advancing on the opponent and knocking them back."
+    },
+    {
+     "header": "CMDCEN10",
+     "text": "^aCMDGauge01;^aSuperSpecial;^mHasei;Stand Rush"
+    },
+    {
+     "header": "CMDCEN10INP",
+     "text": "^mHasei;^mBtnA;"
+    },
+    {
+     "header": "CMDCEN10T",
+     "text": "DIO de-syncs from [THE WORLD] allowing for additional follow-up attacks."
+    },
+    {
+     "header": "CMDCEN11",
+     "text": "^aCMDGauge06;^aSpecial;Useless, USELESS!"
+    },
+    {
+     "header": "CMDCEN11INP",
+     "text": "^mAtk214;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand ON."
+    },
+    {
+     "header": "CMDCEN11T",
+     "text": "[THE WORLD] thrusts forward with a powerful punch that reflects ki-blast. Can perform another follow-up attack with ^mAtk214;^mBtnX; or ^mBtnY; or ^mBtnB;"
+    },
+    {
+     "header": "CMDCEN12",
+     "text": "^aCMDGauge06;^aSpecial;This is... [THE WORLD]!"
+    },
+    {
+     "header": "CMDCEN12INP",
+     "text": "^mAtk2;^mAtk2;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand ON."
+    },
+    {
+     "header": "CMDCEN12T",
+     "text": "After a brief delay, [THE WORLD] stops time and delivers an unblockable punch."
+    },
+    {
+     "header": "CMDCEN13",
+     "text": "^aCMDGauge06;^aSpecial;My Stand's full power!"
+    },
+    {
+     "header": "CMDCEN13INP",
+     "text": "^mAtk236;^mBtnX; or ^mBtnY; or ^mBtnB; while Stand ON and while in the air. (Stand Rush cancellable)"
+    },
+    {
+     "header": "CMDCEN13T",
+     "text": "[THE WORLD] rapidly punches downward, finishing with an upward kick that sends the opponent flying."
+    },
+    {
+     "header": "CMDCEN14",
+     "text": "^aCMDGauge01;^aSuperSpecial;^mHasei;Stand Rush"
+    },
+    {
+     "header": "CMDCEN14INP",
+     "text": "^mHasei;^mBtnA;"
+    },
+    {
+     "header": "CMDCEN14T",
+     "text": "DIO de-syncs from [THE WORLD] allowing for additional follow-up attacks."
+    },
+    {
+     "header": "CMDCEN15",
+     "text": "^aCMDGauge01;^aOverDrives;Scared, are you?"
+    },
+    {
+     "header": "CMDCEN15INP",
+     "text": "^mAtk236;^mBtnR1; or ^mBtnR2;"
+    },
+    {
+     "header": "CMDCEN15T",
+     "text": ""
+    },
+    {
+     "header": "CMDCEN16",
+     "text": "^aCMDGauge03;^aMeteorOverDrives;Road Roller!"
+    },
+    {
+     "header": "CMDCEN16INP",
+     "text": "^mAtk214;^mBtnR1; or ^mBtnR2;"
+    },
+    {
+     "header": "CMDCEN16T",
+     "text": ""
+    },
+    {
+     "header": "CMDCEN17",
+     "text": "^aCMDGauge03;^aMeteorOverDrives;Stop, Time!"
+    },
+    {
+     "header": "CMDCEN17INP",
+     "text": "^mAtk2;^mAtk2;^mBtnR2;"
+    },
+    {
+     "header": "CMDCEN17T",
+     "text": "DIO uses [THE WORLD]'s signature ability to stop time. The start up animation decreases in length for each bar of meter. Each bar of meter is one additional second in time stop."
+    },
+    {
+     "header": "CMDCEN18",
+     "text": "^aCMDGauge01;^aOverDrives;^mHasei;Checkmate!"
+    },
+    {
+     "header": "CMDCEN18INP",
+     "text": "^mHasei;^mAtk236;^mBtnR1; or ^mBtnR2; (performable in air)"
+    },
+    {
+     "header": "CMDCEN18T",
+     "text": "Only performable during 'Stop, Time!'"
+    },
+    {
+     "header": "CMDCEN19",
+     "text": "^aCMDGauge03;^aMeteorOverDrives;So close..."
+    },
+    {
+     "header": "CMDCEN19INP",
+     "text": "(Tap)^mAtk4;^mAtk6; ^mBtnR2; while taking damage (performable in air)"
+    },
+    {
+     "header": "CMDCEN19T",
+     "text": "DIO stops time to escape a combo. Can only be performed once per match."
+    },
+    {
+     "header": "CEN_ASSIST_00",
+     "text": "Useless, useless, useless, useless!"
+    },
+    {
+     "header": "CEN_ASSIST_01",
+     "text": "This is the end!"
+    },
+    {
+     "header": "CEN_ASSIST_02",
+     "text": "Right in front of me!?"
+    },
+    {
+     "header": "vdio0400",
+     "text": "This is... [THE WORLD]."
+    },
+    {
+     "header": "vdio0401",
+     "text": "Hahahahahaha... I'll give you one chance."
+    },
+    {
+     "header": "vdio0402",
+     "text": "What's wrong? You're trembling."
+    },
+    {
+     "header": "vdio0403",
+     "text": "Relax. You don't have to be scared sick."
+    },
+    {
+     "header": "vdio0404",
+     "text": "Oh? You're approaching me? Instead of running away, you are coming right to me?"
+    },
+    {
+     "header": "vdio0405",
+     "text": "You seem to have a special ability that is not normal for humans. I would be happy if you could show that to me."
+    },
+    {
+     "header": "vdio0406",
+     "text": "Are you using Hamon? It probably won't help you get through the [THE WORLD]. Come!"
+    },
+    {
+     "header": "vdio0407",
+     "text": "What do you think of it? You're not going to be friends with me?"
+    }
+   ]
+  },
+  "c822d19241f5f4fa584cc3c8090b7963": {
+   "complemento_de": "CCL",
+   "arquivo": "capcell_moveset.zip"
+  }
+ }
+}

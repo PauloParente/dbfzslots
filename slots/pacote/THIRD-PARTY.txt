@@ -1,0 +1,42 @@
+=====================================================================
+  THIRD-PARTY COMPONENTS AND LICENSES
+=====================================================================
+
+DBFZSLOTS PLUGIN AND TOOLS
+  Ported from DBFZ-ExtrasCustomSlots by MrPopulutus.
+  MIT license: licenses\MrPopulutus-DBFZ-ExtrasCustomSlots-MIT.txt
+
+UE4SS AND THE opengl32.dll PROXY   (_internal\runtime\ue4ss, opengl32.dll)
+  MIT license, (c) Narknon / UE4SS team
+  https://github.com/UE4SS-RE/RE-UE4SS
+  License: licenses\UE4SS-LICENSE.txt
+
+ULTIMATE ASI LOADER   (_internal\runtime\dsound.dll)
+  Official x64 release v9.7.4, unchanged (dinput8.dll renamed to dsound.dll).
+  MIT license, (c) ThirteenAG
+  https://github.com/ThirteenAG/Ultimate-ASI-Loader
+  License: licenses\UltimateASILoader-LICENSE.txt
+
+INSTALLER EXECUTABLE
+  Python ........................ PSF License
+  NumPy ......................... BSD-3-Clause
+  Capstone (disassembler) ....... BSD-3-Clause
+  Tcl/Tk (window) ............... Tcl/Tk license (BSD-style)
+  PyInstaller (bootloader) ...... GPL-2.0 with the bootloader exception
+
+REFERENCES
+  UAssetAPI (atenfyr and contributors, MIT): package file format.
+  WistfulHopes, "DBFZ Custom Character Slots": original extra slots
+  concept.
+
+
+THE GAME AND THE MODS
+  The game and its files belong to Bandai Namco / Arc System Works.
+  The installer includes the AES key of the game's pak files (the one
+  already shared by community modding tools) so it can read the game
+  files on the user's own PC. No game file is distributed.
+  The installer icon uses the game logo (a trademark of its owners).
+  Every character mod belongs to its author. Most use the CC BY-NC-ND
+  4.0 license: that is why the installer converts mods on the user's
+  own PC from the original downloaded file and never distributes
+  adapted versions.

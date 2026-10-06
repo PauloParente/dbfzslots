@@ -1,0 +1,28 @@
+# Whitelist: only source code goes into the repository.
+# Never commit game files, mod paks, builds, packages or the AES key.
+/*
+!/.gitignore
+!/README.md
+!/slots/
+!/tools/
+
+# game files / mods / outputs (inside the whitelisted folders)
+*.pak
+*.sig
+*.uasset
+*.uexp
+*.exe
+*.dll
+*.asi
+*.pdb
+*.lib
+*.zip
+*.log
+__pycache__/
+/slots/build/
+/slots/out/
+/slots/testenv/
+/tools/reports/
+
+# secret: game AES key (read from tools/aes_key.txt or DBFZ_AES_KEY)
+/tools/aes_key.txt

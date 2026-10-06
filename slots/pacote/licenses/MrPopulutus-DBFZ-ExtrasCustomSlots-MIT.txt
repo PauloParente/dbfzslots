@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 MrPopulutus
+
+Scope: this license applies only to the original contributions that the
+contributor is entitled to license. Game assets, character mods and third-party
+dependencies retain their respective rights and licenses. Credits and AI
+assistance are documented in CREDITOS.md (docs/CREDITOS.md in the installer).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+Not covered by this license
+
+- DRAGON BALL FighterZ, its executable, assets and trademarks (Arc System Works,
+  Bandai Namco and the franchise rights holders). DBFZSlotsMask.pak is an
+  edited copy of the game's selector position mask and stays subject to the
+  game's terms.
+- Character mods, portraits, icons, textures, animations, audio and every other
+  third-party asset. Most listed character mods are CC BY-NC-ND 4.0: ask their
+  authors before redistributing adapted versions. See docs/CREDITOS.md.
+- UE4SS (MIT, UE4SS team / Narknon) and UAssetAPI (MIT, atenfyr and
+  contributors), which keep their own licenses.
