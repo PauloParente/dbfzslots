@@ -155,7 +155,14 @@ def main():
         if "construir" in e:
             b = e["construir"]
             out, out_ui = CHARS / f"DBFZX_{c}.pak", CHARS / f"DBFZX_{c}_UI.pak"
-            if c in rebuild or not out.exists() or not out_ui.exists():
+            # o que foi usado para montar (se a origem mudar, o mesmo codigo e remontado)
+            src_sig = json.dumps([e["base"], b, [[str(p(x)), p(x).stat().st_size if p(x).exists() else 0]
+                                                 for x in b["paks"]]], sort_keys=True)
+            sig_file = CHARS / f"DBFZX_{c}.src"
+            if not sig_file.exists() and out.exists() and out_ui.exists() and not dry:
+                sig_file.write_text(src_sig, encoding="utf-8")     # montado por versao anterior
+            mudou = sig_file.exists() and sig_file.read_text(encoding="utf-8") != src_sig
+            if c in rebuild or not out.exists() or not out_ui.exists() or mudou:
                 args = ["build_char.py", c, e["base"]] + [p(x) for x in b["paks"]]
                 if b.get("keep"):
                     args += ["--keep", ",".join(b["keep"])]
@@ -170,6 +177,8 @@ def main():
                 if b.get("ui_paks"):
                     args += ["--ui-paks"] + [p(x) for x in b["ui_paks"]]
                 run(args, dry)
+                if not dry:
+                    sig_file.write_text(src_sig, encoding="utf-8")
             else:
                 print("  already built")
             deploy += [out, out_ui]

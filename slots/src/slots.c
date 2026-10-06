@@ -558,6 +558,11 @@ static void default_cfg_dir(HMODULE self, wchar_t *out) {
 }
 
 __declspec(dllexport) int dbfzslots_init(void) {
+    // Nunca age no exe protegido pelo EasyAntiCheat (o que a Steam abre): se algum arquivo
+    // ficou na pasta (jogo travou antes do launcher limpar), o jogo online continua vanilla.
+    wchar_t host[MAX_PATH]; GetModuleFileNameW(NULL, host, MAX_PATH);
+    const wchar_t *hn = wcsrchr(host, L'\\'); hn = hn ? hn + 1 : host;
+    if (_wcsicmp(hn, L"RED-Win64-Shipping.exe") == 0) return g_done = -1;
     // o jogo passa a pular para dentro desta DLL: ela nunca pode ser descarregada
     HMODULE self;
     GetModuleHandleExW(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS | GET_MODULE_HANDLE_EX_FLAG_PIN,
@@ -565,6 +570,9 @@ __declspec(dllexport) int dbfzslots_init(void) {
     wchar_t cfg[MAX_PATH]; default_cfg_dir(self, cfg);
     return dbfzslots_install_at(GetModuleHandleW(NULL), cfg);
 }
+
+// Perfil em uso (compilado ou do profile.txt), para o teste offline conferir os patches.
+__declspec(dllexport) const Profile *dbfz_active_profile(void) { return g_prof; }
 
 // ---- exports para o Lua (lua_CFunction; o estado Lua nao e usado) ----------------------
 __declspec(dllexport) int luaopen_dbfzslots(void *L) { (void)L; dbfzslots_init(); return 0; }

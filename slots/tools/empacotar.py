@@ -25,7 +25,7 @@ TOOLS = ["pak.py", "pakwrite.py", "uasset.py", "uasset_pkg.py", "aes_win.py"]
 RE_TOOLS = ["pe.py", "xrefs.py", "callers.py"]
 SLOTS_TOOLS = ["assinaturas.py", "build_arrays.py", "build_char.py", "build_mask.py", "build_texts.py",
                "build_ui.py", "caminhos.py", "detectar_mod.py", "gerar_perfil.py", "icon_fix.py", "instalador.py",
-               "instalador_gui.py", "instalar.py", "mask4.py", "exportar_perfil.py"]
+               "instalador_gui.py", "instalar.py", "mask4.py", "exportar_perfil.py", "ativacao.py"]
 UAL_SHA256 = hashlib.sha256((ROOT / "downloads/asi_loader/dsound.dll").read_bytes()).hexdigest()     if (ROOT / "downloads/asi_loader/dsound.dll").exists() else ""
 PROIBIDOS = (".pak", ".uasset", ".uexp", ".ubulk", ".sav", ".exe")      # fora o proprio instalador
 
@@ -55,8 +55,10 @@ def build(version):
            "--icon", str(ROOT / "slots/pacote/icone.ico"),
            "--paths", str(ROOT / "slots/tools"), "--paths", str(ROOT / "tools"), "--paths", str(ROOT / "tools/re")]
     for h in hidden + ["numpy", "tkinter", "tkinter.ttk", "tkinter.filedialog", "tkinter.messagebox",
-                       "tkinter.simpledialog"]:
+                       "tkinter.simpledialog", "six", "PIL.Image", "PIL.ImageTk", "PIL.ImageDraw"]:
         cmd += ["--hidden-import", h]
+    # pystray is LGPL-3.0: NOT inside the exe; shipped as plain, replaceable files in lgpl\pystray
+    cmd += ["--exclude-module", "pystray"]
     cmd.append(str(ROOT / "slots/pacote/launcher.py"))
     subprocess.run(cmd, check=True)
     out = DIST / name
@@ -65,6 +67,12 @@ def build(version):
         if src.exists():
             shutil.copy2(src, out / doc)
     shutil.copytree(ROOT / "slots/pacote/licenses", out / "licenses", dirs_exist_ok=True)
+    import pystray
+    pkg = Path(pystray.__file__).parent
+    shutil.copytree(pkg, out / "lgpl" / "pystray", ignore=shutil.ignore_patterns("__pycache__"), dirs_exist_ok=True)
+    info = next(pkg.parent.glob("pystray-*.dist-info"))
+    for n in ("COPYING", "COPYING.LGPL"):
+        shutil.copy2(info / n, out / "licenses" / f"pystray-{n}.txt")
     shutil.copy2(ROOT / "downloads/asi_loader/LICENSE-UltimateASILoader.txt", out / "licenses" / "UltimateASILoader-LICENSE.txt")
     if not (out / "licenses" / "UE4SS-LICENSE.txt").exists():
         print("\nWARNING: licenses/UE4SS-LICENSE.txt is missing (the official RE-UE4SS LICENSE). "
